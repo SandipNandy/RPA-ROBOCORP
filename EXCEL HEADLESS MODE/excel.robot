@@ -1,11 +1,11 @@
-***  Settings  ***
+*** Settings ***
 Documentation   Excel Operation Keyword File
 Library         RPA.Tables
 Library         RPA.Excel.Files
 Library         String
 
 
-# +
+
 *** Keywords ***
 Read Excel File WorkSheet As Table
     [Arguments]      ${EXCEL_FILE}    ${WORK_SHEET_NAME}
