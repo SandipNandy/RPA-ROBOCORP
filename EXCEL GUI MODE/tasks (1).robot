@@ -1,6 +1,7 @@
-***  Settings  ***
+*** Settings ***
 Documentation   Excel Application Module Example
 Resource        KeywordLibrary/excel-app.robot
+
 
 *** Tasks ***
 GUI Based Excel Application Task1
