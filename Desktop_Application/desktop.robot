@@ -2,7 +2,6 @@
 Documentation   Desktop Related Custom Keywords
 Library         RPA.Desktop
 
-
 # +
 *** Keywords ***
 
@@ -24,7 +23,6 @@ Get Summary Report
     ${element} =    Find Element    alias:SearchButton
     ${info_region} =   Resize Region      ${element}   50   0   0   600
     Take Screenshot     locator=${info_region}
-
 
 Search Stock
     ${element} =    Find Element    alias:SearchButton
