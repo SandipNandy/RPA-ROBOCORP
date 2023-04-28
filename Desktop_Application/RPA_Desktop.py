@@ -1,7 +1,6 @@
 from RPA.Desktop import Desktop
 desktop = Desktop()
 
-
 def navigate_all_positive_stocks():
     stock_elems = desktop.find_elements("alias:GreenStock")
     for stock_elem in stock_elems:
@@ -11,5 +10,3 @@ def navigate_all_positive_stocks():
         region_obj = desktop.resize_region(moved_obj, 0, 0, 700, 800)
         text = desktop.read_text(region_obj)
         print(text)
-
-
