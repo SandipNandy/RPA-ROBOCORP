@@ -1,7 +1,6 @@
-***  Settings  ***
+*** Settings ***
 Documentation   Excel File Related Keyword Examples
 Resource        KeywordLibrary/excel.robot
-
 
 *** Tasks ***
 Read Policies As Table
