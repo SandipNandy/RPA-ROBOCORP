@@ -5,7 +5,6 @@ Library         RPA.Desktop
 # +
 *** Keywords ***
 
-
 Open Stocks Application On MAC
     [Documentation]  please install the rpaframework-recognition package for image/ocr
     
