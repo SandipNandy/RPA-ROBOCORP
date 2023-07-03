@@ -6,7 +6,6 @@ Resource        KeywordLibrary/excel-app.robot
 GUI Based Excel Application Task1
     Add New WorkSheet Into WorkBook       <Give_Complete_Path>/TestXLSFile.xls        policydata
 
-
 *** Tasks ***
 GUI Based Excel Application Task2
     Activate WorkSheet For WorkBook      <Give_Complete_Path>/TestXLSFile.xls        policydata
