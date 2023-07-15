@@ -1,6 +1,5 @@
 # +
 from RPA.Email.ImapSmtp import ImapSmtp
-
 gmail_account = "Your Gmail Account"
 gmail_password = "Gmail Passord"
 mail = ImapSmtp(smtp_server="smtp.gmail.com", smtp_port=587)
