@@ -3,7 +3,6 @@ Documentation   RPA GMAIL Related Keywords Example
 Library         PythonLibrary/RPA_Email.py
 Library         Collections
 
-
 # +
 *** Variables   ***
 ${recipient_email}     GMAIL ACCOUNT
