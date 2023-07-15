@@ -2,7 +2,6 @@
 Library         RPA.FileSystem
 Library         String
 
-# +
 *** Keywords ***
 
 Search Files Info From Directory
