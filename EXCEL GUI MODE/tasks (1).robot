@@ -1,3 +1,4 @@
+
 *** Settings ***
 Documentation   Excel Application Module Example
 Resource        KeywordLibrary/excel-app.robot
