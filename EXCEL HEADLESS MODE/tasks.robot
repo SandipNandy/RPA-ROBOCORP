@@ -2,7 +2,6 @@
 Documentation   Excel File Related Keyword Examples
 Resource        KeywordLibrary/excel.robot
 
-
 *** Tasks ***
 Read Policies As Table
     ${policydata} =  Read Excel File WorkSheet As Table      ./DataSets/sampledatainsurance.xlsx   PolicyData
