@@ -2,6 +2,7 @@
 Documentation   RPA PDF Related Keywords Example
 Resource        KeywordLibrary/pdf.robot
 
+
 *** Variables   ***
 ${SRC_FILE}          /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/DataSets/stfdoc.pdf 
 
@@ -10,6 +11,7 @@ ${SRC_FILE}          /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/DataSet
 #Example of PDF Library Use Case One
 #    Extract Pages With Images   ${SRC_FILE}
 # -
+
 
 *** Tasks   ***
 Example of PDF Library Use Case Two
