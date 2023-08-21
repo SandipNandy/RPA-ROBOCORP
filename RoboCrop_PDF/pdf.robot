@@ -4,10 +4,12 @@ Library         RPA.PDF
 Library         RPA.Browser.Selenium
 Library         String
 
+
 *** Variables   ***
 ${HTML_CONTENT}      <!DOCTYPE html><html><head></head><body><h1>Page URL</h1><p>URL_TO_UPADTE</p><h2>ScreenShot of page</h2></body></html>
 ${DRIVER_PATH}       /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/browser-driver/chromedriver
 ${DEST_FOLDER}       /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/DataSets/pdfout
+
 
 # +
 *** Keywords ***
