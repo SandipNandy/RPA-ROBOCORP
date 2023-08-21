@@ -12,7 +12,6 @@ def send_text_email(recipient_email, mail_subject, mail_body, mail_attachments=N
                       body=mail_body,
                       attachments=mail_attachments)
 
-
 def send_html_email_with_image(recipient_email, mail_subject, mail_body, image_file_path):
     mail.authorize(account=gmail_account, password=gmail_password)
     mail.send_message(sender=gmail_account,
