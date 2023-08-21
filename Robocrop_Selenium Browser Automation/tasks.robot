@@ -6,6 +6,7 @@ Library         RPA.Desktop
 Library         String
 Library         BuiltIn
 
+
 *** Variables   ***
 ${SRC_DIR}       /Users/sandipmac/Projects/RobotAppium/Captions   
 ${TARGET_LAN}    Japanese
