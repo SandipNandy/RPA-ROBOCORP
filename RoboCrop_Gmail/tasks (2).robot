@@ -12,7 +12,6 @@ ${file_one}            <FILE PATH>
 ${file_two}            <FILE PATH>
 @{files_to_attach}
 
-
 ${email_html_body}     <h1>Stock For Day : <img src='Stocks.png' alt='daily stock image'/></h1>
 ${image}               <FILE PATH>
 
