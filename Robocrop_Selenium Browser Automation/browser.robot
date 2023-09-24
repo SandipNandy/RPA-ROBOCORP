@@ -2,7 +2,6 @@
 Documentation   Browser Related Keyword Flow
 Library         RPA.Browser.Selenium
 
-
 *** Variables   ***
 # DOWNLOAD CHOME DRIVER : https://chromedriver.chromium.org/downloads
 ${DRIVER_PATH}          /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/browser-driver/chromedriver
@@ -12,7 +11,6 @@ ${SourceLanText}        //input[@aria-label="Search languages"]
 ${srcTextArea}          //textarea[@aria-label="Source text"]
 ${copyClipButton}       //button[@aria-label="Copy translation"]
 ${clearText}            //button[@aria-label="Clear source text"]
-
 
 # +
 *** Keywords ***
