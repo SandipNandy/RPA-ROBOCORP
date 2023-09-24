@@ -2,7 +2,6 @@
 Documentation   RPA PDF Related Keywords Example
 Resource        KeywordLibrary/pdf.robot
 
-
 *** Variables   ***
 ${SRC_FILE}          /Users/sandipmac/Projects/RoboCorp RPA/FirstRPAProj/DataSets/stfdoc.pdf 
 
