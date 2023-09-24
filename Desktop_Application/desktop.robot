@@ -2,6 +2,7 @@
 Documentation   Desktop Related Custom Keywords
 Library         RPA.Desktop
 
+
 # +
 *** Keywords ***
 Open Stocks Application On MAC
