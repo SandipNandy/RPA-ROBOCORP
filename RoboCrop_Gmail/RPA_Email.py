@@ -4,6 +4,7 @@ gmail_account = "Your Gmail Account"
 gmail_password = "Gmail Passord"
 mail = ImapSmtp(smtp_server="smtp.gmail.com", smtp_port=587)
 
+
 def send_text_email(recipient_email, mail_subject, mail_body, mail_attachments=None):
     mail.authorize(account=gmail_account, password=gmail_password)
     mail.send_message(sender=gmail_account,
