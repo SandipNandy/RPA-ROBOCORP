@@ -1,6 +1,5 @@
 from RPA.Desktop import Desktop
 
-
 desktop = Desktop()
 def navigate_all_positive_stocks():
     stock_elems = desktop.find_elements("alias:GreenStock")
