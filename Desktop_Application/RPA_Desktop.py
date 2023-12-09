@@ -13,5 +13,6 @@ def navigate_all_positive_stocks():
         moved_obj = desktop.move_region(elem_obj, 330, 0)
         
         region_obj = desktop.resize_region(moved_obj, 0, 0, 700, 800)
+        
         text = desktop.read_text(region_obj)
         print(text)
