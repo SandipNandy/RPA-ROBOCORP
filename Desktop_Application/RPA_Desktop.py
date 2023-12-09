@@ -3,6 +3,7 @@ desktop = Desktop()
 def navigate_all_positive_stocks():
     
     stock_elems = desktop.find_elements("alias:GreenStock")
+    
     for stock_elem in stock_elems:
         desktop.click_with_offset(stock_elem, x=-150)
         elem_obj = desktop.find_element("alias:SearchButton")
