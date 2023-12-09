@@ -8,7 +8,8 @@ Resource        KeywordLibrary/excel.robot
 Read Policies As Table
     ${policydata} =  Read Excel File WorkSheet As Table      ./DataSets/sampledatainsurance.xlsx   PolicyData
     
-    @{table_dim} =  Get Table Dimensions  ${policydata}  
+    @{table_dim} =  Get Table Dimensions  ${policydata} 
+
     ${row_value} =  Get Table Row       ${policydata}   ${0}   False    
     
     FOR    ${i}    IN RANGE    ${table_dim}[0]
