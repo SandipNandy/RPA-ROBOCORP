@@ -7,6 +7,7 @@ def navigate_all_positive_stocks():
     for stock_elem in stock_elems:
         
         desktop.click_with_offset(stock_elem, x=-150)
+        
         elem_obj = desktop.find_element("alias:SearchButton")
         moved_obj = desktop.move_region(elem_obj, 330, 0)
         region_obj = desktop.resize_region(moved_obj, 0, 0, 700, 800)
